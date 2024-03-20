@@ -1,0 +1,171 @@
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #003366;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Highlights Section */
+.highlights {
+    padding: 50px;
+    text-align: center;
+}
+
+.highlights h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.highlights ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.highlights li {
+    margin: 0 20px;
+    max-width: 300px;
+}
+
+.highlights li img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Programs Section */
+.programs {
+    padding: 50px;
+    text-align: center;
+}
+
+.programs h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.program-card {
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.program-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.program-card h3 {
+    margin-top: 10px;
+}
+
+.program-card p {
+    margin-top: 10px;
+}
+
+.learn-more {
+    display: inline-block;
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    display: inline-block;
+    margin: 20px;
+    max-width: 400px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.testimonial-card img {
+    max-width
+}
